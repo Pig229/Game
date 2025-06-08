@@ -19,7 +19,6 @@ header {
 
 header h1 {
     color: #61dafb;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .game-content {
@@ -39,11 +38,10 @@ header h1 {
     padding: 10px;
     margin-bottom: 10px;
     background-color: #3a506b;
-    color: #e6e6e6;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 14px;
 }
 
 .menu button:hover {
@@ -73,11 +71,10 @@ header h1 {
 #welcome-screen button {
     padding: 10px 20px;
     background-color: #3a506b;
-    color: #e6e6e6;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
 }
 
 #welcome-screen button:hover {
@@ -101,7 +98,7 @@ header h1 {
     padding: 10px 20px;
     margin: 0 5px;
     background-color: #3a506b;
-    color: #e6e6e6;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
