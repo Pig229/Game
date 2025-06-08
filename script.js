@@ -203,7 +203,7 @@ class Character {
                 new Item("屠龙大剑", "装备时增加 50-70 点攻击力和 10% 暴击率", "equipment", "weapon", null, 0, 0, Math.floor(Math.random() * 21) + 50, 0, 10, 0, 0, "epic")
             ],
             "legendary": [
-                new Item("英雄徽章", "装备时增加 20 点攻击力、20 点防御力", "equipment", "accessory", "medal", 20, 20, 0, 0, 0, 0, 0, 0, "legendary")
+                new Item("英雄徽章", "装备时增加 20 点攻击力、20 点防御力", "equipment", "accessory", "medal", 20, 20, 0, 800)
             ]
         };
 
@@ -290,9 +290,9 @@ class Game {
         if (playerName) {
             this.player = new Character(playerName);
 
-            const starterWeapon = new Item("新手木剑", "初学者的木剑+5攻击力", "equipment", null, "weapon", null, 5, 0, 0, 0, 0, 0, 0, "common");
-            const starterArmor = new Item("粗布衣衫", "初学者的衣服+3防御力", "equipment", null, "armor", null, 0, 3, 0, 0, 0, 0, 0, "common");
-            const starterRing = new Item("新手铜戒", "初学者的戒指+2攻击力", "equipment", null, "accessory", "ring", 2, 0, 0, 0, 0, 0, 0, "common");
+            const starterWeapon = new Item("新手木剑", "初学者的木剑+5攻击力", "equipment", "weapon", null, 5, 0, 0, 0, 0, 0, 0, 0, "common");
+            const starterArmor = new Item("粗布衣衫", "初学者的衣服+3防御力", "equipment", "armor", null, 3, 0, 0, 0, 0, 0, 0, 0, "common");
+            const starterRing = new Item("新手铜戒", "初学者的戒指+2攻击力", "equipment", "accessory", "ring", 2, 0, 0, 0, 0, 0, 0, 0, "common");
 
             this.player.equipment.weapon = starterWeapon;
             this.player.equipment.armor = starterArmor;
