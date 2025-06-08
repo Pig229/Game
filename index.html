@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>灵魂探索者：无尽征程</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>灵魂探索者：无尽征程</h1>
+        </header>
+        <div class="game-content">
+            <div class="sidebar">
+                <div id="player-status">
+                    <h2>角色状态</h2>
+                    <div id="status-content"></div>
+                </div>
+                <div class="menu">
+                    <button id="explore-btn">探索</button>
+                    <button id="inventory-btn">背包</button>
+                    <button id="shop-btn">商店</button>
+                    <button id="save-btn">保存</button>
+                    <button id="load-btn">加载</button>
+                </div>
+            </div>
+            <main id="game-main">
+                <div id="welcome-screen">
+                    <h2>欢迎来到灵魂探索者：无尽征程</h2>
+                    <input type="text" id="player-name" placeholder="输入你的角色名称">
+                    <button id="start-btn">开始游戏</button>
+                </div>
+                <div id="battle-screen" class="hidden">
+                    <div id="monster-info"></div>
+                    <div id="battle-actions">
+                        <button id="attack-btn">攻击</button>
+                        <button id="use-item-btn">使用物品</button>
+                        <button id="run-btn">逃跑</button>
+                    </div>
+                </div>
+                <div id="log" class="hidden"></div>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
